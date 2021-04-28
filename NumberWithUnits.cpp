@@ -161,7 +161,6 @@ namespace ariel
         return *this;
     }
 
-    // NumberWithUnits operator-(const NumberWithUnits &f) const;
     NumberWithUnits &NumberWithUnits::operator-=(const NumberWithUnits &f)
     {
         *this = *this - f;
